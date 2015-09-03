@@ -1,0 +1,108 @@
+
+.container {
+    background-color: slategray;
+}
+
+.list-group-item {
+    min-width: 300px;
+    max-width: 350px;
+    height: 225px;
+    border: solid black 4px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+    border-radius: 10px;
+}
+
+.avatar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+
+.avatar img {
+    height: 70px;
+    width: 70px;
+}
+
+.avatarRep {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    font-size: 48px;
+    color: oldlace;
+    text-align: center;
+}
+
+.nameTitle {
+    width: 200px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.nameTitle .userName {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.nameTitle .jobTitle {
+    font-size: 12px;
+    color: slategrey;
+    font-weight: 600;
+    margin-left: 6px;
+    width: 194px;
+
+}
+
+.conversionChart {
+    display: inline-block;
+    width: 160px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+}
+
+.convLabel {
+    font-size: 12px;
+    color: slategrey;
+    margin-left: 20px;
+}
+
+.stats {
+    display: inline-block;
+    width: 100px;
+    float: right;
+    margin-right: 20px;
+}
+.stats table {
+    float: right;
+}
+.stats td {
+    font-weight: 600;
+    text-align: right;
+}
+.stats .impressions {
+    font-size: 14px;
+    color: orange;
+}
+.stats .impressionLabel,
+.stats .conversionLabel {
+    font-size: 12px;
+    color: lightgray;
+}
+.stats .conversions {
+    font-size: 14px;
+    color: dodgerblue;
+}
+.stats .total {
+    font-size: 20px;
+    color: forestgreen;
+}
+
